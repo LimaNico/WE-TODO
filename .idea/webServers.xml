@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f20921ef-28c9-4b8e-8d20-b62fec15248c" name="Localhost" url="http://localhost\WE-TODO">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\WE-TODO" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="240ec2ba-67a5-4746-9da8-3cb84124b111" name="WE-Server" url="http://files.000webhost.com">
+        <fileTransfer host="files.000webhost.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>WE-Deployment</name>
+        <servers>
+          <name value="Localhost" />
+          <name value="WE-Server" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>
