@@ -10,22 +10,12 @@
 <body>
 
 <div class="container-fluid">
-  <header class="bg-light  mt-3 mb-3 p-5 text-center">
-    <h1>Aufgabenplaner: Projekte</h1>
-  </header>
+    <?php include "header.php";
+    getHeader("Personen");?>
   <div class="row">
-    <div class="col-2">
-      <ul class="list-group">
-        <li class="list-group-item text-primary"><a href="login.html" class="text-decoration-none">Login</a></li>
-        <li class="list-group-item text-primary"><a href="projekte.html" class="text-decoration-none">Projekte</a></li>
-        <li class="list-group-item text-primary">Aktuelles Projekt</li>
-        <ul>
-          <li class="list-group-item text-primary">Reiter</li>
-          <li class="list-group-item text-primary">Aufgaben</li>
-          <li class="list-group-item text-primary">Mitglieder</li>
-        </ul>
-      </ul>
-    </div>
+      <?php include "sidebar.php";
+      getSidebar();
+      ?>
     <div class="col-10">
       <div class="row w-75">
         <table class="table">

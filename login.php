@@ -9,9 +9,8 @@
 <body>
 
 <div class="container-fluid">
-  <header class="bg-light  mt-3 mb-3 p-5 text-center">
-    <h1>Aufgabenplaner: Login</h1>
-  </header>
+    <?php include ('header.php');
+    getHeader("Login");?>
   <div class="row">
     <div class="col ">
         <div class="container-fluid w-50">
@@ -35,7 +34,7 @@
                 <button class="btn btn-primary">Einloggen</button>
 
                 <p>Noch nicht registriert? <a href="registrierung.html" class="link-primary text-decoration-none">Registrierung</a></p>
-                <p>Da der Login Vorgang technisch noch nicht realisiert wurde: <a href="index.html"class="link-primary text-decoration-none">Überspringen</a></p>
+                <p>Da der Login Vorgang technisch noch nicht realisiert wurde: <a href="index.php" class="link-primary text-decoration-none">Überspringen</a></p>
             </form>
         </div>
     </div>

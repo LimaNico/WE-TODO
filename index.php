@@ -7,24 +7,14 @@
           rel="stylesheet" />
 </head>
 <body>
-<div class="container-fluid">
-    <header class="bg-light  mt-3 mb-3 p-5 text-center">
-        <h1>Aufgabenplaner: Todos (Aktuelles Projekt)</h1>
-    </header>
-    <div class="row">
-        <div class="col">
-            <ul class="list-group">
-                <li class="list-group-item text-primary"><a href="login.html" class="text-decoration-none">Login</a></li>
-                <li class="list-group-item text-primary"><a href="projekte.html" class="text-decoration-none">Projekte</a></li>
-                <li class="list-group-item text-primary">Aktuelles Projekt</li>
-                <ul>
-                    <li class="list-group-item text-primary">Reiter</li>
-                    <li class="list-group-item text-primary">Aufgaben</li>
-                    <li class="list-group-item text-primary">Mitglieder</li>
-                </ul>
 
-            </ul>
-        </div>
+<div class="container-fluid">
+    <?php include ('header.php');
+    getHeader("ToDo (Aktuelles Projekt)");?>
+    <div class="row">
+        <?php include "sidebar.php";
+        getSidebar();
+        ?>
         <div class="col-10">
             <div class="row">
                 <div class="col">
