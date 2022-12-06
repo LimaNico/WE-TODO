@@ -28,28 +28,8 @@
           </tr>
           </thead>
           <tbody>
-          <tr>
-            <td>Max Mustermann</td>
-            <td>mustermann@muster.de</td>
-            <td>
-              <input type="checkbox">
-            </td>
-            <td>
-              <i class="fa-regular fa-pen-to-square"></i>
-              <i class="fa-regular fa-trash-can"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Petra Müller</td>
-            <td>petra@mueller.de</td>
-            <td>
-              <input type="checkbox">
-            </td>
-            <td>
-              <i class="fa-regular fa-pen-to-square"></i>
-              <i class="fa-regular fa-trash-can"></i>
-            </td>
-          </tr>
+          <?php include "mitglieder_array.php"
+          ?>
           </tbody>
         </table>
       </div>

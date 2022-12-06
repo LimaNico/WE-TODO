@@ -27,30 +27,8 @@
           </tr>
           </thead>
           <tbody>
-          <tr>
-            <td>ToDo</td>
-            <td>Dinge die erledigt werden müssen.</td>
-            <td>
-              <i class="fa-regular fa-pen-to-square"></i>
-              <i class="fa-regular fa-trash-can"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Erledigt</td>
-            <td>Dinge die erledigt sind.</td>
-            <td>
-              <i class="fa-regular fa-pen-to-square"></i>
-              <i class="fa-regular fa-trash-can"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Verschoben</td>
-            <td>Dinge die später erledigt werden.</td>
-            <td>
-              <i class="fa-regular fa-pen-to-square"></i>
-              <i class="fa-regular fa-trash-can"></i>
-            </td>
-          </tr>
+          <?php include "reiter_array.php"
+          ?>
           </tbody>
         </table>
       </div>
